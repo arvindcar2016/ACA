@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Car Seat Covers</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<h1>Car Seat Covers</h1>
+		<nav>
+			<ul>
+				<li><a href="#about">About Us</a></li>
+				<li><a href="#products">Products</a></li>
+				<li><a href="#contact">Contact Us</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section id="about">
+			<h2>About Us</h2>
+			<p>We specialize in providing high-quality car seat covers for a variety of makes and models. Our covers are designed to protect your seats from damage and keep them looking like new.</p>
+			<p>Our team of experts is dedicated to providing exceptional customer service and ensuring that you find the perfect seat covers for your vehicle.</p>
+		</section>
+		<section id="products">
+			<h2>Products</h2>
+			<p>Check out our selection of car seat covers:</p>
+			<ul>
+				<li>Leather seat covers</li>
+				<li>Neoprene seat covers</li>
+				<li>Camo seat covers</li>
+				<li>Custom seat covers</li>
+			</ul>
+		</section>
+		<section id="contact">
+			<h2>Contact Us</h2>
+			<form action="submit-form.php" method="POST">
+				<label for="name">Name:</label>
+				<input type="text" id="name" name="name" required>
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email" required>
+				<label for="message">Message:</label>
+				<textarea id="message" name="message" rows="5" required></textarea>
+				<button type="submit">Send</button>
+			</form>
+			<p>Phone: 7305400964</p>
+			<p>Email: arvindcar2016@gmail.com</p>
+		</section>
+	</main>
+	<footer>
+		<p>&copy; 2023 Car Seat Covers.</p>
+	</footer>
+</body>
+</html>
